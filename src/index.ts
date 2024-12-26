@@ -45,7 +45,7 @@ app.onError((err, c) => {
 });
 
 // Routing
-app.get("/", (c) => c.text("Hono!!"));
+app.get("/", (c) => c.text("Hono 2 pull!!"));
 // Use Response object directly
 app.get("/hello", () => new Response("This is /hello"));
 
