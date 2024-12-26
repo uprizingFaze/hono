@@ -1,0 +1,14 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "bun run --hot --port=4002 src/index.ts",
+    "start": "bun run --port=4000 src/index.ts",
+    "build": "bun build src/index.ts --outdir=dist"
+  },
+  "dependencies": {
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
